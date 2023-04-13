@@ -194,7 +194,7 @@
 \RequirePackage { physics }
 \RequirePackage { siunitx }
 
-\RequirePackage { algorithm2e }     % 算法代码
+\RequirePackage [ruled, linesnumbered]{ algorithm2e }     % 算法代码 % CHANGE - Add algorithm2e config: 添加算法的配置
 \tl_set:Nn \algorithmcfname { 算法 }
 \SetAlCapSty {}
 \SetAlCapFnt {}
