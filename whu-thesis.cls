@@ -892,7 +892,8 @@
   }
 
 %%% ---- 参考文献设置 ----- %%%
-\clist_if_in:nVTF { doctor , master } \g__whu_option_type_tl
+% CHANGE: 将硕士的参考文献格式修改为和本科一样
+\clist_if_in:nVTF { doctor  } \g__whu_option_type_tl
   {
     \keys_define:nn { whu / style }
       {
