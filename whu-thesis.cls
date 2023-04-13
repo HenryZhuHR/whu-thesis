@@ -1438,6 +1438,7 @@
   {
     \__whu_make_bibliography:
     \__whu_make_appendix:
+    \__whu_make_achievements: % CHANGE - add_master_achievements : 增加硕士的科研成果目录页
     \__whu_make_thanks:
   }
 
