@@ -724,6 +724,7 @@
 \AtEndPreamble
   {
     \RequirePackage { hyperref }
+    \hypersetup { colorlinks,citecolor=blue } % CHANGE - Add hyperref color 添加超链接颜色
     \hypersetup { hidelinks }
     \urlstyle { rm }
 
